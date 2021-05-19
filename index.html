@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine_Sweeper</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body  onload="init()">
+    <h1>Mine Sweeper</h1>
+    <h2>Timer</h2>
+    <h2 class= "timer">00.00</h2>
+    <button class="btn" onclick="setLevel(4, 2)">Beginner</button>
+    <button class="btn" onclick="setLevel(8, 12)">Medium</button>
+    <button class="btn" onclick="setLevel(12, 30)">Expert</button>
+    <table class="table" border="1">
+        <tbody class="board"></tbody>
+    </table>
+
+
+    <script src= "js/main.js"></script>
+</body>
+</html>
